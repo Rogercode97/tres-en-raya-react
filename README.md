@@ -1,5 +1,9 @@
 # 🎮 Tres en Raya con React
 
+
+
+> **🎯 Juega en línea ahora:** [https://tres-en-raya-react.vercel.app](https://tres-en-raya-react.vercel.app)
+
 Juego clásico de Tres en Raya (Tic-Tac-Toe) implementado con React, incluyendo efectos de confetti al ganar y seguimiento del historial de movimientos.
 
 ## ✨ Características Principales
@@ -16,31 +20,3 @@ Juego clásico de Tres en Raya (Tic-Tac-Toe) implementado con React, incluyendo 
 ### Requisitos Previos
 - Node.js (versión 16 o superior)
 - npm o yarn
-
-### Pasos de Instalación
-
-```bash
-# 1. Clonar el repositorio
-git clone https://github.com/Rogercode97/tres-en-raya-react.git
-
-# 2. Navegar al directorio del proyecto
-cd tres-en-raya-react
-
-# 3. Instalar dependencias
-npm install
-
-# 4. Iniciar el servidor de desarrollo
-npm run dev
-
-# 5. Abrir en el navegador
-# La aplicación estará disponible en http://localhost:5173
-
-# Construir para producción
-npm run build
-
-# Vista previa de la build de producción
-npm run preview
-
-# Ejecutar linter
-npm run lint
-
