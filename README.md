@@ -24,20 +24,63 @@ Juego clásico de Tres en Raya (Tic-Tac-Toe) implementado con React, incluyendo 
 ### Pasos de Instalación
 
 ```bash
-## 1. Clonar el repositorio
+# 1. Clonar el repositorio
 git clone https://github.com/Rogercode97/tres-en-raya-react.git
 
-## 2. Navegar al directorio del proyecto
+# 2. Navegar al directorio del proyecto
 cd tres-en-raya-react
 
-## 3. Instalar dependencias
+# 3. Instalar dependencias
 npm install
 
-## 4. Iniciar el servidor de desarrollo
+# 4. Iniciar el servidor de desarrollo
 npm run dev
 
-## 5. Abrir en el navegador
-## La aplicación estará disponible en http://localhost:5173
+# 5. Abrir en el navegador
+# La aplicación estará disponible en http://localhost:5173
+
+Comandos Adicionales
+bash
+
+# Construir para producción
+npm run build
+
+# Vista previa de la build de producción
+npm run preview
+
+# Ejecutar linter
+npm run lint
+
+🎮 Cómo Jugar
+
+    Inicio: El jugador X siempre comienza primero
+
+    Turnos: Los jugadores alternan turnos (X y O)
+
+    Objetivo: Formar una línea de 3 símbolos iguales (horizontal, vertical o diagonal)
+
+    Historial: Usa la lista de movimientos para volver a jugadas anteriores
+
+    Fin del Juego: El juego termina cuando hay un ganador o empate
+
+📁 Estructura del Proyecto
+text
+
+tres-en-raya-react/
+├── public/          # Archivos estáticos
+├── src/
+│   ├── assets/      # Imágenes y recursos
+│   ├── components/  # Componentes React
+│   │   ├── Board.jsx       # Tablero principal
+│   │   ├── Square.jsx      # Casilla individual
+│   │   ├── Confetti.jsx    # Efecto de confetti
+│   │   └── Confetti.css    # Estilos del confetti
+│   ├── App.jsx      # Componente principal
+│   ├── App.css      # Estilos principales
+│   └── main.jsx     # Punto de entrada
+├── index.html       # Plantilla HTML
+├── vite.config.js   # Configuración de Vite
+└── package.json     # Dependencias y scripts
 
 🛠 Tecnologías Utilizadas
 
@@ -60,5 +103,3 @@ Roger
     Proyecto: Tres en Raya con React
 
 ⭐ Si te gustó este proyecto, ¡dale una estrella en GitHub!
-text
-
