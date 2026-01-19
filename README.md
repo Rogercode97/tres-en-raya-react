@@ -1,16 +1,64 @@
-# React + Vite
+# 🎮 Tres en Raya con React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rogercode97/tres-en-raya-react)
 
-Currently, two official plugins are available:
+Juego clásico de Tres en Raya (Tic-Tac-Toe) implementado con React, incluyendo efectos de confetti al ganar y seguimiento del historial de movimientos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Características Principales
 
-## React Compiler
+- 🎯 **Juego Clásico**: Implementación fiel del juego Tres en Raya
+- 🎊 **Efectos Visuales**: Confetti animado cuando un jugador gana
+- 📜 **Historial Completo**: Navega por todos los movimientos anteriores
+- 🔄 **Viaje en el Tiempo**: Vuelve a cualquier punto del juego
+- 📱 **Responsive**: Se adapta a diferentes tamaños de pantalla
+- 🎨 **Interfaz Amigable**: Diseño moderno y atractivo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Cómo Ejecutar Localmente
 
-## Expanding the ESLint configuration
+### Requisitos Previos
+- Node.js (versión 16 o superior)
+- npm o yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Pasos de Instalación
+
+```bash
+## 1. Clonar el repositorio
+git clone https://github.com/Rogercode97/tres-en-raya-react.git
+
+## 2. Navegar al directorio del proyecto
+cd tres-en-raya-react
+
+## 3. Instalar dependencias
+npm install
+
+## 4. Iniciar el servidor de desarrollo
+npm run dev
+
+## 5. Abrir en el navegador
+## La aplicación estará disponible en http://localhost:5173
+
+🛠 Tecnologías Utilizadas
+
+    React 18+: Biblioteca principal para la interfaz de usuario
+
+    Vite: Herramienta de construcción rápida y servidor de desarrollo
+
+    CSS3: Estilos personalizados y efectos visuales
+
+    JavaScript ES6+: Lógica del juego
+
+    Git & GitHub: Control de versiones y hosting
+
+👤 Autor
+
+Roger
+
+    GitHub: @Rogercode97
+
+    Proyecto: Tres en Raya con React
+
+⭐ Si te gustó este proyecto, ¡dale una estrella en GitHub!
+text
+
